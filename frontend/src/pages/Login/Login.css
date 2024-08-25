@@ -1,0 +1,49 @@
+.login {
+  background: green;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.login__contenedor__form{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login__contenedor {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  height: 35rem;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.login__contenedor__usuario__form {
+  background: red;
+  height: 90%;
+}
+.login__contenedor__img {
+    height: 30%;
+    width: 80%;
+
+}
+.login__contenedor__usuario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.login__contenedor__contrasena {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.login__contenedor__boton {
+}
